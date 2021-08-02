@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+h1, h3{
+    text-align:center;
+    background-color: aqua;
+}
+h3{
+    background-color: lime;
+}
+div{
+    border:2px solid black;
+    padding:10px;
+}
+.main, .main2{
+    display:flex;
+    justify-content:space-evenly;
+}
+.main>div{
+    background-color:black;
+    color:gold
+}
+.main2>div{
+    background-color: darkred;
+    color:lime;
+}
